@@ -24,7 +24,7 @@ export const ARTWORKS: Artwork[] = [
     tags: ['poster', 'tribute', 'graphic'],
     src: 'assets/images/artworks/image_8.png',
     thumbnail: 'assets/images/thumbnails/image_8.webp',
-    featured: true,
+    featured: false,
     year: 2023,
   },
   {
@@ -35,7 +35,7 @@ export const ARTWORKS: Artwork[] = [
     tags: ['fan art', 'action', 'scene'],
     src: 'assets/images/artworks/image_17.png',
     thumbnail: 'assets/images/thumbnails/image_17.webp',
-    featured: true,
+    featured: false,
     year: 2023,
   },
   {
@@ -276,7 +276,7 @@ export const ARTWORKS: Artwork[] = [
     tags: ['story', 'rain', 'dog'],
     src: 'assets/images/artworks/image_25.png',
     thumbnail: 'assets/images/thumbnails/image_25.webp',
-    featured: false,
+    featured: true,
   },
   {
     id: '26',
@@ -353,7 +353,7 @@ export const ARTWORKS: Artwork[] = [
     tags: ['chibi', 'character', 'wallpaper'],
     src: 'assets/images/artworks/image_32.png',
     thumbnail: 'assets/images/thumbnails/image_32.webp',
-    featured: false,
+    featured: true,
   },
   {
     id: '35',
