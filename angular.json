@@ -49,7 +49,7 @@
           },
           "configurations": {
             "production": {
-              "baseHref": "/vp-portfolio/",
+              "baseHref": "/portfolio/",
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
@@ -96,7 +96,7 @@
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
           "options": {
-            "baseHref": "/vp-portfolio/",
+            "baseHref": "/portfolio/",
             "dir": "docs/browser"
           }
         }
