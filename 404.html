@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Robert Martinovski - Portfolio</title>
+    <script>
+      // GitHub Pages SPA redirect trick.
+      // Pages serves this file for any unknown path (e.g. a hard refresh on
+      // /vp-portfolio/work). Stash the path, bounce to index.html, and let the
+      // script in index.html restore it before Angular Router boots.
+      var path = window.location.pathname;
+      var repo = '/vp-portfolio'; // must match `baseHref` in angular.json
+      sessionStorage.setItem('redirect', path);
+      window.location.replace(repo + '/?p=1');
+    </script>
+  </head>
+  <body></body>
+</html>
