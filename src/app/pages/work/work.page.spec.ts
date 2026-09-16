@@ -82,7 +82,7 @@ describe('WorkPage', () => {
   describe('filter tabs', () => {
     it('counts each category and drops the ones with no work', () => {
       // ARTWORKS has no 'ui' entries, so that tab is removed entirely.
-      expect(tabLabels()).toEqual(['All 23', 'Illustration 17', 'Branding 2', 'Print 4']);
+      expect(tabLabels()).toEqual(['All 33', 'Illustration 27', 'Branding 2', 'Print 4']);
     });
 
     it('keeps the All tab even when it is the only match', () => {
@@ -157,17 +157,31 @@ describe('WorkPage', () => {
         '23',
         '5',
         '10',
+        '24',
+        '25',
+        '26',
+        '27',
+        '28',
+        '29',
+        '30',
+        '31',
+        '32',
+        '35',
       ]);
     });
   });
 
   describe('result count and empty state', () => {
     it('pluralises the count', () => {
-      expect(root.querySelector('.work-count span')?.textContent?.trim()).toBe('23 works');
+      const count = (): string | undefined =>
+        root.querySelector('.work-count span')?.textContent?.trim();
+      const branding = ARTWORKS.filter((a) => a.category === 'branding').length;
+
+      expect(count()).toBe(`${ARTWORKS.length} works`);
 
       clickTab('Branding');
 
-      expect(root.querySelector('.work-count span')?.textContent?.trim()).toBe('2 works');
+      expect(count()).toBe(`${branding} works`);
     });
 
     it('shows the empty state and hides the grid when nothing matches', async () => {
