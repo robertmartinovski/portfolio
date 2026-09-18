@@ -355,6 +355,28 @@ export const ARTWORKS: Artwork[] = [
     thumbnail: 'assets/images/thumbnails/image_32.webp',
     featured: true,
   },
+   {
+    id: '33',
+    title: 'Grandpa Varadin Bike Ride',
+    category: 'illustration',
+    description:
+      'Grandpa varadin on a bike ride.',
+    tags: ['chibi', 'character', 'wallpaper'],
+    src: 'assets/images/artworks/image_33.png',
+    thumbnail: 'assets/images/thumbnails/image_33.webp',
+    featured: false,
+  },
+   {
+    id: '34',
+    title: 'Grandpa Varadin',
+    category: 'illustration',
+    description:
+      'Grandpa varadin on a rope walk.',
+    tags: ['chibi', 'character', 'wallpaper'],
+    src: 'assets/images/artworks/image_34.png',
+    thumbnail: 'assets/images/thumbnails/image_34.webp',
+    featured: true,
+  },
   {
     id: '35',
     title: 'Double Tanto Oni',
