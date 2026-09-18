@@ -331,7 +331,7 @@ export const ARTWORKS: Artwork[] = [
     tags: ['night', 'fantasy', 'environment'],
     src: 'assets/images/artworks/image_30.png',
     thumbnail: 'assets/images/thumbnails/image_30.webp',
-    featured: false,
+    featured: true,
   },
   {
     id: '31',
@@ -342,7 +342,7 @@ export const ARTWORKS: Artwork[] = [
     tags: ['poster', 'vector', 'sport'],
     src: 'assets/images/artworks/image_31.png',
     thumbnail: 'assets/images/thumbnails/image_31.webp',
-    featured: false,
+    featured: true,
   },
   {
     id: '32',
@@ -364,6 +364,6 @@ export const ARTWORKS: Artwork[] = [
     tags: ['concept art', 'weapon', 'oni'],
     src: 'assets/images/artworks/image_35.png',
     thumbnail: 'assets/images/thumbnails/image_35.webp',
-    featured: false,
+    featured: true,
   },
 ];
