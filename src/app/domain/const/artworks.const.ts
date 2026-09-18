@@ -386,6 +386,6 @@ export const ARTWORKS: Artwork[] = [
     tags: ['concept art', 'weapon', 'oni'],
     src: 'assets/images/artworks/image_35.png',
     thumbnail: 'assets/images/thumbnails/image_35.webp',
-    featured: true,
+    featured: false,
   },
 ];
